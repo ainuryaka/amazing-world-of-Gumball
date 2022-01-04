@@ -1,0 +1,51 @@
+body{
+	background-color: #E2EAF1;
+	background-position: center;
+	background-attachment: scroll;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+h1{
+	background-color: #0A2943;
+	font-size: 55px;
+	color: #E2EAF1;
+	font-family: Arial;
+	text-align: center;
+}
+P{
+	background-color:#0A2943 ;
+	font-size: 35PX;
+	font-family: inherit;
+	text-align: center;
+	color:#E2EAF1 ;
+	position: relative;
+	bottom: 40px;
+	padding-left: 10px;
+}
+#bar {
+    top:-5.5em; left:5em; 
+     padding: .5em; 
+     margin: 0;
+     position: absolute; 
+     width: 4em;
+     background: #333;
+     color: #fff; 
+     text-align: center;
+     
+     transition: top 1s ease-out 0.5s;
+     transition: top 1s ease-out 0.5s;
+     transition: top 1s ease-out 0.5s;
+     transition: top 1s ease-out 0.5s;
+    }
+#bar:hover { top: 0; }
+img{
+	position: center;
+width:7 430px ;
+height: 442px;
+transform: scale(1.0);
+transition: 2s all;
+}
+img:hover{
+transform: scale(1.2);
+}
